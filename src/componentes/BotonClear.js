@@ -2,10 +2,9 @@ import React from "react";
 import '../hojas-de-estilo/BotonClear.css'
 
 const BotonClear = (props) => (
-    <div className='boton-clear' onClick={props.manejarClear}>
+    <badge className='badge-secondary' onClick={props.manejarClear}>
         {props.children}
-
-    </div>
+    </badge>
 );
     
 

@@ -1,4 +1,4 @@
-.boton-contenedor{
+.badge-secondary{
     height: 83px;
     display: flex;
     flex: 1 1;
@@ -15,7 +15,7 @@
     user-select: none;
 }
 
-.boton-contenedor:hover{
+.badge-secondary:hover{
     background-color: #000000;
 }
 
